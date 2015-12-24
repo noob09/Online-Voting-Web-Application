@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 nov, 2015, 6:18:54 AM
+*/
+
+
+		.mainBody
+		{
+			background-color: #ebebeb;
+			font-family: Arial;
+			line-height:2;
+			text-align: left;
+			margin: 0 auto;
+			width: 100%;
+			clear: both;
+			height: 500px;
+		}
+              
+                
+                .imagesa
+                {
+                    width: 100%;
+			
+		  height: 550px;
+                }
+                
+                .textspaces
+                {
+                    
+                }
+                
+
+
+		.navArea {
+			background-color: #666;
+			height: 4em;
+			border-radius: 5px;			
+			margin: 3% 0;
+		}
+
+		.navArea img{
+			width: 40%;
+			height: auto;
+			float: left;
+		}
+
+
+		.navArea ul {
+			margin: 10 20;
+		}
+
+		.navArea li {
+			display: inline;
+			
+                        margin: -8px auto;
+                        font-size: 20px;
+                        float:contour;
+		}
+
+		.navArea a {
+                    
+			text-decoration: none;
+                        color:#ebebeb ;
+			display: inline;
+                        padding: 0px 25px;
+                        font-size: 20px;
+		}
+
+		.rootContent
+		{
+			overflow: hidden;
+                        height: 100%;
+                        box-sizing: border-box;
+		}
+
+		.navArea a:hover, .navArea a:visited{
+			background-color: #003300;			
+			border-radius: 5px;			
+		}
+
+
+
+		@media only screen and (min-width : 150px) and (max-width : 800px)
+		{
+
+			.rootContent
+			{
+				overflow: visible;
+			}
+
+			.body{
+			background-color: #ebebeb;
+			font-family: Arial;
+			width: 100%;
+			margin: 0 0;
+			}
+
+			.navArea {
+				width: 100%;
+				height: auto;
+				margin: 0 0;
+			}
+
+			.navArea img{
+			width: 100%;
+			height: auto;
+			}
+
+			.navArea ul {
+				list-style: none;
+				margin: 0 auto;
+				width: 100%;
+			}
+
+			.navArea li {
+				margin-left: 0;
+				width: 100%;
+			}
+
+			.navArea a {
+			text-decoration: none;
+			color: black;
+			width: 100%;
+			}
+
+
+			.navArea a:hover, .navArea a:visited{
+				background-color: #003300;
+				border-radius: 7px;			
+				color: white;
+			}
+
+
+		}
+
+		.documentFooter
+		{
+			text-align: center;
+                        background-color:  #666666;
+			height: 2em;
+			margin: 3% 0;
+			border-radius: 2px;	
+			width: 100%;
+		}
+
