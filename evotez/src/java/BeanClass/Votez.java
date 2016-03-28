@@ -6,7 +6,8 @@
 package BeanClass;
 
 /**
- *
+ * @author
+ Praveen Sangalad
  * 
  */
 public class Votez {
