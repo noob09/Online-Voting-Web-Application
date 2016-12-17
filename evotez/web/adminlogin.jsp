@@ -4,11 +4,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Login</title>
-        
         <link rel="stylesheet" type="text/css" href="styles/login.css">
-
         <jsp:include page="adminheader.jsp"/>
-          
            <article class="rootContent">
                 <p><i>${requestScope.message}</i></p>
             <form action="votezController" method="post" >
