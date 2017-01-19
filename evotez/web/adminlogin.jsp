@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="styles/login.css">
         <jsp:include page="adminheader.jsp"/>
            <article class="rootContent">
-                <p><i>${requestScope.message}</i></p>
+               <p><i>${requestScope.message}</i></p>
             <form action="votezController" method="post" >
                 <input type="hidden" name="action" value="adminlogin" ><br>
                 <div class="form-group">
